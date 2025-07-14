@@ -11,7 +11,7 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Code Editor Pro",
+  title: "SVCode - Code Editor Pro",
   description: "A modern web-based code editor for HTML, CSS, and JavaScript",
 }
 

@@ -22,7 +22,7 @@ export default function Home() {
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to Code Editor Pro</h1>
+        <h1>Welcome to SVCode Editor</h1>
         <p>Start building something amazing!</p>
         <button onclick="showMessage()">Click me!</button>
     </div>
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function() {
               </div>
               <div>
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  Code Editor Pro
+                  SVCode Editor
                 </h1>
                 <p className="text-sm text-gray-600 dark:text-gray-400">Build, preview, and export your web projects</p>
               </div>
@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', function() {
       </main>
       <footer>
         <div className="container mx-auto px-6 py-4 text-center text-sm text-gray-500 dark:text-gray-400">
-          &copy; {new Date().getFullYear()} Code Editor Pro. All rights reserved.<br />
+          &copy; {new Date().getFullYear()} SVCode Editor. All rights reserved.<br />
           Developed by <a href="https://sarthakvitmal.vercel.app" target="_blank" rel="noopener noreferrer" className=" text-blue-600 dark:text-white">Sarthak Vitmal</a>
         </div>
       </footer>
