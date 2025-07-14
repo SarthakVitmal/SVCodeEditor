@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });`)
 
   const [srcDoc, setSrcDoc] = useState("")
-  const [viewMode, setViewMode] = useState<"split" | "tabs">("split")
+  const [viewMode, setViewMode] = useState<"split" | "tabs">("tabs")
   const { theme, setTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
 
